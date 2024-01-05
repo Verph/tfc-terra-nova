@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license = "BSD 3"
+
+[[mods]]
+modId="tfcterranova"
+version="${file.jarVersion}"
+displayName="TFC Terra Nova"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/tfc-terra-nova"
+authors="Verph"
+description="Bringing more biomes to TerraFirmaCraft."
+
+[[dependencies.tfcterranova]]
+	mandatory = true
+	modId = "tfc"
+	ordering = "AFTER"
+	side = "BOTH"
+	versionRange = "[1.20.1-3,)"
+	
+[[dependencies.tfcterranova]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[47.1.3,47.1.6),[47.2.6,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.tfcterranova]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20.1,1.20.2)"
+    ordering = "NONE"
+    side = "BOTH"

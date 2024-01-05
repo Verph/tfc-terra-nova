@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "tfcterranova.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ConnectedGrassBlockkMixin",
+		"DirtBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"refmap": "tfcterranova.refmap.json"
+}

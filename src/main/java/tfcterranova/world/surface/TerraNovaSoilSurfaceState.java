@@ -30,7 +30,6 @@ import net.dries007.tfc.util.registry.RegistrySoilVariant;
 import tfcterranova.common.blocks.TerraNovaBlocks;
 import tfcterranova.common.blocks.rock.TerraNovaRock;
 import tfcterranova.common.blocks.soil.*;
-import tfcterranova.common.items.TerraNovaItems;
 import tfcterranova.util.TNHelpers;
 
 public class TerraNovaSoilSurfaceState implements SurfaceState
